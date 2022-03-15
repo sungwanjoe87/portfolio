@@ -37,9 +37,8 @@ while True:
 
 
     # 원하는 숫자 입력    
-    input1 = int(input('1-25의 숫자를 입력하세요.>>'))
-    
-    # 3이라는 숫자를 넣으면 3의 자리에 X 입력되도록 구현
+    input1 = int(input('1-25의 숫자를 입력하세요.>>')
+                 
     for i,arr in enumerate(arrs):
         if input1 in arr:
             # [1,2,3,4,5] 3의 자리 arr.index(3)->2
